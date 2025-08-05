@@ -17,7 +17,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket         = "050943451589-tfstate-core-accounts"
-    key            = "lz-identity/terraform.tfstate"
+    key            = "lz-logarchieve/terraform.tfstate"
     region         = "eu-central-1"
     encrypt        = true
     dynamodb_table = "tfstate-table"
